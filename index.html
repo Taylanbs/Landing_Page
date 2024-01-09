@@ -1,0 +1,108 @@
+<!DOCTYPE html>  <!-- marcação que indica qual a versão do html -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylan Santos</title>
+</head>
+
+<body>
+    <header> <!--Cabeçalho da pagina-->
+        <div>  <!--tag generica que pode ser usada para qualquer coisa, mas é usada como "caixa" para organizar -->
+        <a href="#"> Landing Page</a>
+
+        <nav>   <!--NAvegação de menu-->
+            <ul> <!--Lista não Ordenada-->
+                <li><a href="#">Home</a></li> <!--vai ser sempre usada em uma lista ul ou ol (ordenada ou não ordenada)-->
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contrate-Me</li>
+             </ul>
+        </nav>
+        </div>
+    </header>  
+    
+    <main>  <!--Parte principal da pagina-->
+        <section>
+
+            <article>  <!--Artigo, parte de uma informação maior, uma "miniatura"-->
+                <h4> Bemvindo</h4>
+                <h1>Diferentes mundos para diferentes pessoas</h1>
+                <!--Alt + Z = quebra de linha-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum inventore voluptatem quibusdam reiciendis excepturi facilis, laudantium ipsa id ea consequuntur ex minus, molestias cupiditate eos qui dolore, laborum expedita quos.</p>
+
+                <a target="_blank" href="https://github.com/Taylanbs">Explore</a> 
+            </article>
+
+            <article>
+                <img src="./assets/Atronauta.svg" alt="astronauta flutuando"/> <!--para evitar problema no react adiciona / nas tags que não tem fechamento-->
+            </article>
+
+        </section>
+
+        <section>
+            <img src=" https://avatars.githubusercontent.com/u/102376714?v=4" alt="Foto perfil"/> 
+
+            <article>
+                <h2>Quem sou eu</h2>
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio ea ex sapiente dolorum consequuntur illum debitis animi atque repellat rem voluptatem quidem doloremque, laudantium nemo aspernatur commodi nesciunt perspiciatis?
+                </p>
+            </article>
+
+            <article>
+                <a target="_blank" href="https://github.com/Taylanbs">
+                    Github
+                </a>
+
+                <p>Seguidores</p>
+                <p>Repositórios</p>
+            </article>
+        </section>
+
+        <section>
+
+            <article>
+
+                <h4>ME contrate</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia quibusdam impedit eaque dicta accusantium quas veniam beatae, nihil eum consequuntur nulla tempore ipsum neque? Inventore reiciendis nam aliquid deserunt.</p>
+
+                <div> <!--Icone redes sociais-->
+
+                    <a href="" target="_blank">
+                        <img src="./assets/linkedIn.svg" alt="Logo linkedIn">
+                    </a>
+                                    
+                    
+                </div>
+
+            </article>
+
+            <form>
+                <label>Nome:</label>
+
+                <input type="text" name="Nome" placeholder="Digite o seu nome" required/>
+
+                <label>E-mail:</label>
+
+                <input type="text" email="email" placeholder="Digite o seu email" required/>
+
+                <label>Assunto:</label>
+
+                <input type="text" name="Assunto" placeholder="Digite o assunto da sua mensagem" required/>
+
+                <label>Mensagem:</label>
+                <textarea name="mensagem" placeholder="Digite a sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer> <!--Rodapé-->
+        Projeto feito com 🤯 por Taylan Santos - 2024
+    </footer>
+    
+</body>
+</html>
